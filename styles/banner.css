@@ -1,0 +1,45 @@
+.banner {
+    background: var(--beautyful-purple);
+    color: var(--bg-highlight-color);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__cupom {
+    background: var(--beautyful-purple);
+    color: var(--bg-highlight-color);
+    text-align: center;
+    padding: 1em 1em 0.5em 1em;
+}
+
+.banner__cupom__titulo {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banner__cupom__texto {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+@media screen and (min-width: 601px) {
+    .banner__cupom__titulo {
+        font-size: 36px;
+        margin-top: 1em;
+    }
+
+    .banner__cupom__texto {
+        font-size: 28px;
+        font-weight: 500;
+        margin: 1em 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .banner__cupom {
+        padding: 0.5em;
+    }
+
+}
