@@ -121,4 +121,9 @@
         width: 50%;
         align-self: center;
     }
+
+    .botoes__ancora:hover {
+        background-color: var(--bg-color);
+        color: var(--main-purple);
+    }
 }

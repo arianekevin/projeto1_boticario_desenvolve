@@ -9,255 +9,317 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section class="banner__cupom">
-        <h2 class="banner__cupom__titulo">Ganhe 10% off na sua primeira compra</h2>
-        <p class="banner__cupom__texto">CUPOM: NOVANOABC</p>
-    </section>
-    <header class="cabecalho">
-        <div class="container">
-            <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" class="container__rotulo">
-                <span class="cabecalho__menu-hamburguer container__imagem"></span>
-            </label>
-            <ul class="lista-menu">
-                <li class="lista-menu__titulo">Categorias</li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Produtos</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Ofertas</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Mais vendidos</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Tratamentos</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Kits</a>
-                </li>
-            </ul>
-            <img src="img/logo%20ABC.png" alt="Logo da Ari Beauty" class="container__imagem-logo">
-        </div>
-
-        <ul class="opcoes">
-            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-            <label for="opcoes-menu" class="opcoes__rotulo">
-                <li class="opcoes__item">Categorias</li>
-            </label>
-
-            <ul class="lista-menu">
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Produtos</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Ofertas</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Mais vendidos</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Tratamentos</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Kits</a>
-                </li>
-            </ul>
+<div class="" id="backdrop"></div>
+<section class="banner__cupom">
+    <h2 class="banner__cupom__titulo">Ganhe 10% off na sua primeira compra</h2>
+    <p class="banner__cupom__texto">CUPOM: NOVANOABC</p>
+</section>
+<header class="cabecalho">
+    <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__rotulo">
+            <span class="cabecalho__menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Produtos</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Ofertas</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Mais vendidos</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Tratamentos</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Kits</a>
+            </li>
         </ul>
-
-        <div class="container profile-and-cart">
-            <a href="#" class="container__link">
-                <img src="img/shopping-cart-xxl.png" alt="Carrinhos de compras" class="container__imagem__menu">
-                <p class="container__texto">Minha sacola</p>
-            </a>
-            <a href="#" class="container__link">
-                <img src="img/profile.png" alt="Meu perfil" class="container__imagem__menu">
-                <p class="container__texto">Meu perfil</p>
-            </a>
-        </div>
-    </header>
-
-    <div class="card">
-        <!-- 1º linha -->
-        <div class="card__descricao">
-            <!-- 1º coluna -->
-            <div class="descricao">
-                <h3 class="descricao__titulo">Assine nossa caixa surpresa!</h3>
-                <h2 class="descricao__titulo-livro"></h2>
-                <p1 class="descricao__texto">Receba todos os meses a partir de <p2>260,00</p2> em produtos</p1>
-                <p1 class="descricao__texto desktop">Receba todos os meses a partir de <p2>260,00</p2> em produtos baseados em um perfil de beleza. Todos os meses, selecionaremos produtos que
-                    combinam com você pra te deixar cada vez mais linda</p1>
-                <a href="#" class="botoes__ancora">Assine agora</a>
-            </div>
-            <!-- 2º coluna -->
-            <img src="img/box.jpg" class="descricao__imagem">
-        </div>
+        <img src="img/logo%20ABC.png" alt="Logo da Ari Beauty" class="container__imagem-logo">
     </div>
 
-    <div class="ofertas-e-box">
-        <div class="carrossel">
-            <h2 class="carrossel__titulo">Melhores ofertas</h2>
-            <!-- Slider main container -->
-            <div class="carrossel__container">
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
+    <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+        <label for="opcoes-menu" class="opcoes__rotulo">
+            <li class="opcoes__item">Categorias</li>
+        </label>
 
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <img src="img/batom.png" alt="Batom vermelho">
-                            <p>R$23,90</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/blush.png" alt="Blush">
-                            <p>R$49,90</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/hidratante.png" alt="Hidratante">
-                            <p>R$65,90</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/blush%20bastao.png" alt="Blush bastão">
-                            <p>R$39,90</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/batom2.png" alt="Batom rosa">
-                            <p>R$15,90</p>
-                        </div>
-                    </div>
+        <ul class="lista-menu">
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Produtos</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Ofertas</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Mais vendidos</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Tratamentos</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Kits</a>
+            </li>
+        </ul>
+    </ul>
 
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+    <div class="container profile-and-cart">
+        <a href="#" class="container__link">
+            <img src="img/shopping-cart-xxl.png" alt="Carrinhos de compras" class="container__imagem__menu">
+            <p class="container__texto">Minha sacola</p>
+        </a>
+        <a href="#" class="container__link">
+            <img src="img/profile.png" alt="Meu perfil" class="container__imagem__menu">
+            <p class="container__texto">Meu perfil</p>
+        </a>
+    </div>
+</header>
+
+<div class="card">
+    <!-- 1º linha -->
+    <div class="card__descricao">
+        <!-- 1º coluna -->
+        <div class="descricao">
+            <h3 class="descricao__titulo">Assine nossa caixa surpresa!</h3>
+            <h2 class="descricao__titulo-livro"></h2>
+            <p1 class="descricao__texto">Receba todos os meses a partir de
+                <p2>260,00</p2>
+                em produtos
+            </p1>
+            <p1 class="descricao__texto desktop">Receba todos os meses a partir de
+                <p2>260,00</p2>
+                em produtos baseados em um perfil de beleza. Todos os meses, selecionaremos produtos que
+                combinam com você pra te deixar cada vez mais linda
+            </p1>
+            <a href="#" id="surprise-box-btn" class="botoes__ancora">Assine agora</a>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/box.jpg" class="descricao__imagem">
+    </div>
+</div>
+
+<div class="form__card hidden" id="form">
+    <div class="form__card__descricao">
+        <div class="form__descricao">
+            <h3 class="form__descricao__titulo">Insira seus dados e entraremos em contato!</h3>
+            <div class="form-field">
+
+                <div class="form__div">
+                    <label class="form-label">
+                        Nome
+                    </label>
+                    <input type="text" placeholder="Digite seu nome">
                 </div>
+
+                <div class="form__div">
+                    <label class="form-label">
+                        Email
+                    </label>
+                    <input type="email" placeholder="Digite seu email">
+                </div>
+
+                <div class="form__div">
+                    <label class="form-label">
+                        Telefone
+                    </label>
+                    <input type="tel" placeholder="Digite seu telefone">
+                </div>
+
+            </div>
+
+            <div class="form-footer">
+                <a href="index.html" class="form__botoes__ancora">Enviar</a>
+                <a href="index.html" class="form__botoes__ancora">Cancelar</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="ofertas-e-box">
+    <div class="carrossel">
+        <h2 class="carrossel__titulo">Melhores ofertas</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/batom.png" alt="Batom vermelho">
+                        <p>R$23,90</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/blush.png" alt="Blush">
+                        <p>R$49,90</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/hidratante.png" alt="Hidratante">
+                        <p>R$65,90</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/blush%20bastao.png" alt="Blush bastão">
+                        <p>R$39,90</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/batom2.png" alt="Batom rosa">
+                        <p>R$15,90</p>
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </div>
+</div>
 
-    <section class="kit">
-        <h2 class="kit__titulo">Monte seu kit</h2>
-        <div class="kit__container">
-            <ul class="kit__lista">
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-155136172-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Argilas</p1>
-                        <p2>A partir de<p3> R$49,90</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="9" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-160544089-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Perfumes</p1>
-                        <p2>A partir de<p3> R$159,90</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="3" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-200413313-001-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Esmaltes</p1>
-                        <p2>A partir de<p3> R$2,90</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="9" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-200415951-001-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Brilho labial</p1>
-                        <p2>A partir de<p3> R$15,90</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="15" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-200416177-001-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Cremes</p1>
-                        <p2>A partir de<p3> R$89,00</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="38" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-452414549-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Base</p1>
-                        <p2>A partir de<p3> R$39,90</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="10" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-1298169792-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Pincéis</p1>
-                        <p2>A partir de<p3> R$19,90</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="7" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-                <li class="kit__lista-item">
-                    <img src="img/kit/gettyimages-1427635379-612x612.jpg">
-                    <div class="kit__lista-item__text">
-                        <p1>Sombras</p1>
-                        <p2>A partir de<p3> R$65,00</p3></p2>
-                    </div>
-                    <input type="number" step="1" min="1" max="12" value="1"/>
-                    <a href="#" class="kit__add">Comprar</a>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="contato">
-        <div class="contato__descricao">
-            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-            <p class="contato__texto">Novidades, promoções e outras notícias da Ari Beauty no seu email</p>
-        </div>
-        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
-    </section>
-
-    <hr />
-
-    <footer class="rodape">
-        <ul class="lista-rodape">
-            <li class="lista-rodape__titulo">Entre em contato conosco:</li>
-            <li class="lista-rodape__item">
-                <img src="img/email.png" alt="email: abc@abc.com">
-                <a href="mailto:abc@abc.com" class="lista-rodape__link">abc@abc.com</a>
+<section class="kit">
+    <h2 class="kit__titulo">Monte seu kit</h2>
+    <div class="kit__container">
+        <ul class="kit__lista">
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-155136172-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Argilas</p1>
+                    <p2>A partir de
+                        <p3> R$49,90</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="9" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
             </li>
-            <li class="lista-rodape__item">
-                <img src="img/phone.png" alt="phone: (62) 99999-9999">
-                <a href="#" class="lista-rodape__link">(62) 99999-9999</a>
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-160544089-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Perfumes</p1>
+                    <p2>A partir de
+                        <p3> R$159,90</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="3" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
+            </li>
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-200413313-001-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Esmaltes</p1>
+                    <p2>A partir de
+                        <p3> R$2,90</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="9" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
+            </li>
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-200415951-001-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Brilho labial</p1>
+                    <p2>A partir de
+                        <p3> R$15,90</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="15" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
+            </li>
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-200416177-001-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Cremes</p1>
+                    <p2>A partir de
+                        <p3> R$89,00</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="38" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
+            </li>
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-452414549-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Base</p1>
+                    <p2>A partir de
+                        <p3> R$39,90</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="10" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
+            </li>
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-1298169792-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Pincéis</p1>
+                    <p2>A partir de
+                        <p3> R$19,90</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="7" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
+            </li>
+            <li class="kit__lista-item">
+                <img src="img/kit/gettyimages-1427635379-612x612.jpg">
+                <div class="kit__lista-item__text">
+                    <p1>Sombras</p1>
+                    <p2>A partir de
+                        <p3> R$65,00</p3>
+                    </p2>
+                </div>
+                <input type="number" step="1" min="1" max="12" value="1"/>
+                <a href="#" class="kit__add">Comprar</a>
             </li>
         </ul>
-        <h2 class="rodape__titulo">Ari Beauty Cosmetics</h2>
-    </footer>
+    </div>
+</section>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-        });
-    </script>
+<section class="contato">
+    <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Novidades, promoções e outras notícias da Ari Beauty no seu email</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr/>
+
+<footer class="rodape">
+    <ul class="lista-rodape">
+        <li class="lista-rodape__titulo">Entre em contato conosco:</li>
+        <li class="lista-rodape__item">
+            <img src="img/email.png" alt="email: abc@abc.com">
+            <a href="mailto:abc@abc.com" class="lista-rodape__link">abc@abc.com</a>
+        </li>
+        <li class="lista-rodape__item">
+            <img src="img/phone.png" alt="phone: (62) 99999-9999">
+            <a href="#" class="lista-rodape__link">(62) 99999-9999</a>
+        </li>
+    </ul>
+    <h2 class="rodape__titulo">Ari Beauty Cosmetics</h2>
+</footer>
+
+<script src="index.js" defer></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+</script>
 </body>
 
 </html>

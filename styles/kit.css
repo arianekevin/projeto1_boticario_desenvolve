@@ -162,6 +162,11 @@
         width: 30%;
     }
 
+    .kit__add:hover {
+        background-color: var(--bg-highlight-color);
+        color: var(--main-purple);
+    }
+
     .kit p2 {
         font-size: 24px;
         margin-top: 0.2em;
